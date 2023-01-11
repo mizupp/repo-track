@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
+
+#profilecard{
+margin-left: 120px;
+background-color: #11161e;
+color: #747D86;
+width: 20vw;
+height: 100vh;
+font-family: 'Poppins', sans-serif;
+padding: 40px 40px;
+
+}
+
+#useravatar{
+    background-size: cover;
+    background-position: center;
+    width:auto;
+    height:auto;
+    max-height: 20vw;
+    border-radius: 50%;
+    margin-bottom: 50px;
+
+  }
+
+#username{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-decoration: none;
+    left: 0;
+    color: #ccc;
+  color: inherit;
+  } 
+#editp{
+  width: 100%;
+  background-color: #21262D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+#editp:hover{
+  border: 1px solid #ccc;
+  
+}
+
+#followlink{
+width: 100%;
+padding: 10px 10px 10px 10px;
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+#followlink span{
+  margin-right: 10px;
+  text-decoration: none;
+}
+#followlink a{
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: lowercase;
+  color: #ccc;
+  color: inherit;
+  word-spacing: 10%;
+}
+.followers{
+  width:10%;
+  filter: invert(0.3);
+  /* -webkit-mask: url(https://www.svgrepo.com/show/435685/group.svg) no-repeat center;
+  mask: url(https://www.svgrepo.com/show/435685/group.svg) no-repeat center; */
+  
+}
+

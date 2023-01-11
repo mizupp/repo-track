@@ -1,0 +1,10 @@
+.logo {
+    padding: 16px;
+    background: #161b22;
+}
+
+.logo img {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}

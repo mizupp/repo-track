@@ -1,0 +1,40 @@
+
+.home{
+    top:0;
+    display: grid;
+    grid-template-areas: "user search search search"
+                         "user repo repo repo"
+                         "user repo repo repo"
+                         "user repo repo repo"
+                         "user repo repo repo";
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+#userside{
+/* padding-left: 10%; */
+    grid-area: user;
+    justify-self: end;
+}
+#reposide{
+    grid-area: repo;
+    justify-self: start;
+    width: 70%;
+    /* position: absolute;
+    margin-top: 30%;
+    margin-left: 40%;
+    top:0; */
+
+    
+}
+#searchside{
+    grid-area: search;
+    justify-self: start;
+    width: 70%;
+    /* width: 50%;
+    margin-left: 40%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(129, 80, 80); */
+}
+

@@ -7,11 +7,12 @@ const NavBar = () => {
     return(
         <nav>
             
-            <NavLink className="home-link" to="/">Home</NavLink>
-            <NavLink activeclassname="active" to="/about">About</NavLink>
-            <NavLink activeclassname="active" to="/search">Search</NavLink>
-
-            <button onClick={ () => navigate(-1) }>Back</button>
+            <NavLink className="home-link" to="/"><i class="fa-solid fa-book-open"> </i> Overview</NavLink>
+            <NavLink activeclassname="active" to="/repositories"><i class="fa-regular fa-bookmark"></i> Repositories</NavLink>
+            <NavLink activeclassname="active" to="/projects"><i class="fa-solid fa-table-list"></i> Projects</NavLink>
+            <NavLink activeclassname="active" to="/packages"><i class="fa-solid fa-cube"></i> Packages</NavLink>
+            <NavLink activeclassname="active" to="/stars"><i class="fa-regular fa-star"></i> Stars</NavLink>
+            <button id="backbtn" onClick={ () => navigate(-1) }>Back</button>
         </nav>
     );
 }
